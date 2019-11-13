@@ -1,0 +1,24 @@
+{
+    "name": "lms-service/av-cp-utils",
+    "description": "",
+    "type": "library",
+    "license": "ISC",
+    "authors": [
+        {
+            "name": "Joe Ford",
+            "email": "ford153focus@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "LMS_Service\\AvCpUtils\\": "src"
+        }
+    },
+    "config": {
+        "sort-packages": true,
+        "preferred-install": "dist",
+        "optimize-autoloader": true
+    },
+    "prefer-stable": true,
+    "minimum-stability": "dev"
+}
